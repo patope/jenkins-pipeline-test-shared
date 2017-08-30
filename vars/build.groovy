@@ -9,7 +9,7 @@ def call(body) {
           		}
           	}
         	stage('Build 2') {
-        		when { expression { echo('here') } }
+        		when { expression { false } }
           		steps {
           			echo('2')
           		}
